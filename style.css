@@ -10,12 +10,15 @@ h1 {
   color: white;
 }
 
-
+header{
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 1000;
+}
 .nav-div {
   display: flex;
   justify-content: space-between;
-  position: sticky;
-  top: 0                                               ;
   margin-bottom: 40px;
   border-radius: 14px;
   position: sticky;
@@ -86,7 +89,7 @@ img{
   text-decoration: underline;
 }
 
-.projectcard-div{
+#projectcard-div{
     display:flex;
      justify-content: space-between;
     gap: 10px;
@@ -128,14 +131,14 @@ h3{
     border-radius: 4px;
 }
 
-.form{
+#form{
     background-color: rgb(57, 65, 61);
     margin-left: 200px;
     margin-right: 200px;
     padding:0 20px ;
     border-radius: 50px;
 }
-.form h2{
+#form h2{
     text-align: center;
     padding-top: 14px;
     
@@ -208,7 +211,7 @@ h3{
   
 }
 
-.form{
+#form{
   width:90%;
   margin: 25px;
 }
@@ -248,7 +251,7 @@ h3{
   
   }
 
- .projectcard-div{
+ #projectcard-div{
   display: grid;
   margin: 3px;
 }
@@ -272,7 +275,7 @@ h3{
   border-radius: 50%;
 }
 
-.form{
+#form{
   width: 75%;
   margin: 25px;
 }
@@ -311,7 +314,7 @@ h3{
   
   }
 
- .projectcard-div{
+ #projectcard-div{
   display: grid;
   margin: 7px;
 }
@@ -336,7 +339,7 @@ h3{
   border-radius: 50%;
 }
 
-.form{
+#form{
   width: 70%;
   margin: 30px;
 }
@@ -377,7 +380,7 @@ h3{
     display: grid;
   }
 
- .projectcard-div{
+ #projectcard-div{
   display: grid;
   margin: 7px;
 }
@@ -400,8 +403,7 @@ h3{
   margin-left: 50px;
   border-radius: 50%;
 }
-
-.form{
+#form{
   width: 70%;
   margin: 25px;
 }
